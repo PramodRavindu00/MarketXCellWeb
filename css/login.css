@@ -1,0 +1,292 @@
+/*Background*/
+body {
+    margin: 0;
+    background-color: #F8F8F8;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Header*/
+.header {
+    
+    transition: top 0.3s;
+    background-color: #C5C6C6;
+    display: flex; 
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px #C5C6C6;
+    background-position: center 0%;
+}
+
+/*Logo*/
+.logo-img{
+    margin: 5px;
+}
+
+/*Navigation Bar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    transition: top 0.3s;
+}
+
+.navbar ul{
+    list-style-type:none;
+    text-decoration:none;
+    text-align: center; 
+}
+
+ .navbar li{ 
+	display: inline-flex;  
+    align-items: center; 
+}
+
+.navbar li a,.dropbtn{
+    text-decoration:none;
+	display:block;
+	color:rgb(255, 255, 255);
+    width: 150px;
+	text-align:center;
+	font-size:16px;
+    text-align: center;
+    font-weight: medium;
+    font-family: 'Inter';
+
+}
+
+.navbar li a:hover,.dropdown:hover.dropbtn{
+	
+    color: #F8F8F8;
+ transform: scale(1.1);
+   height: 1px;
+   padding-top: 0px;
+   
+}
+
+
+/*Login Form*/
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.loginHeader{
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 8px; 
+    color: black;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.subHeading{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    color: #525354;
+    text-align: center;
+    margin-bottom: 48px;
+   
+
+}
+.fieldHeader{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    color: #525354;
+    margin-bottom: 8px;
+
+}
+.txtField {
+    display: flex;
+    width: 324px;
+    height: 49px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 2px solid #C5C6C6; 
+    padding-left: 20px;
+margin-bottom: 32px;
+    
+}
+.txtField::placeholder {
+    color: #babbbb; 
+    font-family: 'Inter';
+    font-size: 14px;
+   
+}
+.fogPass {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+    color: #1985F1;
+    margin-bottom: 48px;
+}
+.fogPass a{
+    text-decoration: none;
+    color: inherit;
+}
+.fogPass:hover{
+    color: #000000;
+}
+.btn {
+    display: block;
+    background-color: #1985F1;
+    color: white;
+    width: 350px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: #1e5edf;
+}
+
+.btnlink {
+    text-decoration: none;
+    color: inherit;
+}
+.passwordContainer {
+    display: flex;
+    width: 315px;
+    height: 49px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 2px solid #C5C6C6;
+    padding-left: 20px;
+    margin-bottom: 32px;
+    font-family: 'Inter';
+    font-size: 14px;
+    position: relative;
+    background-color: white;
+    padding-right: 10px;
+    
+}
+
+.passwordContainer input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 14px;
+   color: #000000;
+}
+
+.passwordContainer::placeholder {
+    display: inline;
+    opacity: 0.7; 
+}
+
+.eye-icon {
+    width: 20px; 
+    height: 20px;
+    fill: #F27F18;
+}
+
+.eye {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.eye-icon.active {
+    fill: #1985F1;
+}
+
+.eye-icon.inactive {
+    fill: #F27F18; 
+}
+/*Footer*/
+.footer {
+    transition: top 0.3s;
+    background-color: #F3F3F4;
+    background-position: center 0%;
+    margin-top: 150px;
+    justify-content: space-between;
+  
+}
+.footerHead{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Inter';
+    padding-top: 20px;
+}
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family:'Inter';
+    color: black;
+    padding: 65px;
+}
+
+.quick-nav {
+    width: 30%;
+    margin-right: 20px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.quick-nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: #000000;
+}
+
+.quick-nav h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.link{
+    text-decoration: none; 
+    color: inherit; 
+    font-size: 16px;
+}
+.link:hover{
+    color: #1e5edf;
+}
+
+.quick-nav li {
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 16px;
+}
+.quick-nav img{
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.para{
+    font-size: 16px;
+    font-family: 'Inter';
+}
+.copyright {
+    text-align: center; 
+    background-color: rgb(0, 0, 0); 
+    padding: 10px; 
+    font-family:'Inter';
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+}

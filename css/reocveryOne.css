@@ -1,0 +1,165 @@
+/*Background*/
+body {
+    margin: 0;
+    background-color: #F8F8F8;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Header*/
+.header {
+    
+    transition: top 0.3s;
+    background-color: #C5C6C6;
+    display: flex; 
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px #C5C6C6;
+    background-position: center 0%;
+}
+
+/*Logo*/
+.logo-img{
+    margin: 5px;
+}
+
+/*Navigation Bar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    transition: top 0.3s;
+}
+
+.navbar ul{
+    list-style-type:none;
+    text-decoration:none;
+    text-align: center; 
+}
+
+ .navbar li{ 
+	display: inline-flex;  
+    align-items: center; 
+}
+
+.navbar li a,.dropbtn{
+    text-decoration:none;
+	display:block;
+	color:rgb(255, 255, 255);
+    width: 150px;
+	text-align:center;
+	font-size:16px;
+    text-align: center;
+    font-weight: medium;
+    font-family: 'Inter';
+
+}
+
+.navbar li a:hover,.dropdown:hover.dropbtn{
+	
+    color: #F8F8F8;
+ transform: scale(1.1);
+   height: 1px;
+   padding-top: 0px;
+   
+}
+
+
+/*Recovery Form*/
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.loginHeader{
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 8px; 
+    color: black;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.subHeading{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    color: #525354;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.subHeadingTwo{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: #8C8C8D;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.fieldHeader{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    color: #525354;
+    margin-bottom: 8px;
+
+}
+.txtField {
+    display: flex;
+    width: 324px;
+    height: 49px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 2px solid #C5C6C6; 
+    padding-left: 20px;
+margin-bottom: 32px;
+    
+}
+.txtField::placeholder {
+    color: #babbbb; 
+    font-family: 'Inter';
+    font-size: 14px;
+   
+}
+
+.btn {
+    display: block;
+    background-color: #1985F1;
+    color: white;
+    width: 350px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: #1e5edf;
+}
+
+.btnlink {
+    text-decoration: none;
+    color: inherit;
+}
+/*Footer*/
+.copyright {
+    text-align: center; 
+    background-color: rgb(0, 0, 0); 
+    padding: 10px; 
+    font-family:'Inter';
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    margin-top: 250px;
+}
