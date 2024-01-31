@@ -19,7 +19,8 @@ class Product{
       "productquantity"=>$_POST['quantity'],
       "minstocklevel"=>$_POST['minstock'],
       "productIMG"=>$_POST['imgURL'],
-      "featured"=>$featured
+      "featured"=>$featured,
+      "cartcount"=>"0"                  
    ]);
 
    if($insert){
